@@ -15,3 +15,5 @@ Please replace this document with instructions on how to use Your Awesome Librar
 To create a new component within the library folder, you'll have to specify the path of your library module. The ../lib/awesomelibrary points to ../lib/awesomelibrary.module.ts.
 
 ```ng generate component header --module ../lib/awesomelibrary```
+
+The component will be generated within the app folder, so you'll have to move it manually (or && a copy command).
