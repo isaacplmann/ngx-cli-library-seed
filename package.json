@@ -22,18 +22,19 @@
     "pack:lib": "npm run build:lib && cd dist && npm pack && copyfiles *.tgz ../ && cd .. && rimraf dist/*.tgz"
   },
   "private": false,
-  "peerDependencies": {
-    "@angular/common": "^5.0.0",
-    "@angular/core": "^5.0.0"
+  "dependencies": {
+    "@angular/common": "^5.2.9",
+    "@angular/core": "^5.2.9"
   },
   "devDependencies": {
     "@angular/cli": "^1.7.3",
-    "@angular/common": "^5.0.0",
-    "@angular/compiler-cli": "^5.0.0",
-    "@angular/core": "^5.0.0",
-    "@angular/platform-browser": "^5.0.0",
-    "@angular/platform-browser-dynamic": "^5.0.0",
-    "@angular/router": "^5.0.0",
+    "@angular/common": "^5.2.9",
+    "@angular/compiler": "^5.2.9",
+    "@angular/compiler-cli": "^5.2.9",
+    "@angular/core": "^5.2.9",
+    "@angular/platform-browser": "^5.2.9",
+    "@angular/platform-browser-dynamic": "^5.2.9",
+    "@angular/router": "^5.2.9",
     "@types/jasmine": "^2.8.6",
     "@types/node": "^9.6.0",
     "codelyzer": "~4.2.1",
@@ -51,6 +52,7 @@
     "rimraf": "^2.6.2",
     "ts-node": "^5.0.1",
     "tslint": "^5.9.1",
-    "typescript": "^2.8.1"
+    "typescript": "^2.8.1",
+    "zone.js": "^0.8.20"
   }
 }
