@@ -9,3 +9,11 @@ Please replace this document with instructions on how to use Your Awesome Librar
 4. Lib code separate from demo code
 5. Compiled code separate from source code
 6. Publish to npm or pack into *.tgz for local testing
+
+## Creating a new component in the library
+
+To create a new component within the library folder, you'll have to specify the path of your library module. The ../lib/awesomelibrary points to ../lib/awesomelibrary.module.ts.
+
+```ng generate component header --module ../lib/awesomelibrary```
+
+The component will be generated within the app folder, so you'll have to move it manually (or && a copy command).
